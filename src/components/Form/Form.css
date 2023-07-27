@@ -121,10 +121,10 @@
     color: var(--black);
   }
   .form-input .input-items.default input:focus, .form-input .input-items.default textarea:focus {
-    border-color: var(--primary);
+    border-color: #001143;
   }
   .form-input .input-items.default input::placeholder, .form-input .input-items.default textarea::placeholder {
-    color: var(--dark-3);
+    color: var(--black);
     opacity: 1;
   }
   .form-input .input-items.default i {
@@ -230,7 +230,7 @@
   }
   .contact-info .social li a:hover {
     color: var(--white);
-    background-color: var(--primary);
+    background-color: #001143;
     border-color: transparent;
   }
 
@@ -299,3 +299,4 @@
   .alert.alert-success-light .alert-icon {
     color: var(--success);
   }
+

@@ -68,7 +68,7 @@ const Form = () => {
                     <h1>Contáctenos</h1>
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            
+
                             <div className="contact-form form-style-four mt-15">
                                 <form action="#">
                                     <div className="row">
@@ -165,71 +165,68 @@ const Form = () => {
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className='contacto'>
-                                <section className="client-logo-area client-logo-one" id="contacto" data-aos="fade-left" data-aos-duration="1500">
-                                
-                                    <div className="container">
-                                        <div className="row">
-                                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                                <div className="single-client text-center">
-                                                    <img src="/assets/user.svg" alt="Image" />
-                                                </div>
-                                                <div className="single-client text-center">
-                                                    <h5>
-                                                        Nombre
-                                                    </h5>
-                                                    <p>
-                                                        Name Name
-                                                    </p>
-                                                    <p>
-                                                        Gerente Comercial.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-                                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                                <div className="single-client text-center">
-                                                    <img src="/assets/phone.svg" alt="Image" />
-                                                </div>
-                                                <div className="single-client text-center">
-                                                    <h5>
-                                                        Teléfono
-                                                    </h5>
-
-                                                    <div>
-                                                        <a href="tel:+56912345678">+569 1234 5678</a>
+                                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6">
+                                    
+                                    <div class="contact-info">
+                                        <ul class="info">
+                                            <li>
+                                                <div class="single-info">
+                                                    <div class="info-icon">
+                                                        <i class="lni lni-map-marker"></i>
                                                     </div>
-                                                    <ExternalLink href='https://api.whatsapp.com/send?phone=56912345678'>
-                                                        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png' style={{ height: '40px' }}></img>
-                                                        WhatsApp
-                                                    </ExternalLink>
-
-
+                                                    <div class="info-content">
+                                                        <p class="text">
+                                                            Avenida Santiago 999, Santiago,
+                                                            Chile
+                                                        </p>
+                                                    </div>
                                                 </div>
 
-                                            </div>
-                                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                                <div className="single-client text-center">
-                                                    <img src="/assets/envelope.svg" alt="Image" />
-                                                </div>
-                                                <div className="single-client text-center">
-                                                    <h5>
-                                                        Correo
-                                                    </h5>
-                                                    <a href="mailto:contacto@correo.cl">
-                                                        contacto@correo.cl
-                                                    </a>
-
+                                            </li>
+                                            <li>
+                                                <div class="single-info">
+                                                    <div class="info-icon">
+                                                        <i class="lni lni-phone"></i>
+                                                    </div>
+                                                    <div class="info-content">
+                                                        <a href='tel:+56936681814'><p class="text">+56 (9) 3668 1814</p></a>
+                                                    </div>
                                                 </div>
 
-                                            </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <div class="single-info">
+                                                    <div class="info-icon">
+                                                        <i class="lni lni-envelope"></i>
+                                                    </div>
+                                                    <div class="info-content">
+                                                        <p class="text">contacto@yañezingenieria.cl</p>
+                                                    </div>
+                                                </div>
 
-
-                                        </div>
-                                        
-
+                                            </li>
+                                        </ul>
+                                        <ul class="social mt-5">
+                                            <li>
+                                                <a href="https://wa.me/+56936681814"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    <i class="lni lni-whatsapp"></i>
+                                                </a>
+                                            </li>
+                                           
+                                            <li>
+                                                <a href="https://www.instagram.com/yanezingenieriacivil/"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer">
+                                                    <i class="lni lni-instagram-original"></i>
+                                                </a>
+                                            </li>
+                                           
+                                        </ul>
                                     </div>
-
-                                </section>
+                                </div>
                             </div>
 
                         </div>

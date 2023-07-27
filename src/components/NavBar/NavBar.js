@@ -29,7 +29,7 @@ const NavBar = () => {
           navbar.style.opacity = '0.9'
           
         } else {
-          logoImg.style.height = '15vh'; // Tamaño normal del logo
+          logoImg.style.height = '12vh'; // Tamaño normal del logo
           navbar.style.opacity = '1'
         }
       };
@@ -51,7 +51,7 @@ const NavBar = () => {
                   <div className="col-lg-12">
                      <nav className="navbar navbar-expand-lg">
                         <Link to='inicio' className="navbar-brand" >
-                           <img src="/assets/logo.png" id='navbar-logo' alt="Logo" style={{ height: '15vh' }} />
+                           <img src="/assets/logo.png" id='navbar-logo' alt="Logo" style={{ height: '12vh' }} />
                         </Link>
                         <button
                            className="navbar-toggler"
@@ -88,7 +88,7 @@ const NavBar = () => {
                               </li>
                             
                               <li className="nav-item">
-                                 <Link to="contacto" smooth={true} offset={-100} duration={200}>Contacto</Link>
+                                 <Link to="contact-area" smooth={true} offset={-100} duration={200}>Contacto</Link>
                               </li>
                            </ul>
                         </div>
