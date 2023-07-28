@@ -3,41 +3,27 @@ import Alert from './Alert';
 import './Form.css';
 import { ExternalLink } from 'react-external-link';
 
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 
 const Form = () => {
 
-
+    const form = useRef();
 
 
 
     const enviar = (e) => {
+        console.log("se va a enviar..")
         e.preventDefault()
-
-        //const token = 'd19d9f02-21a9-4ab3-b04c-f93fa3ef3a97';
-        const token = 'asdas';
-
-        const config = {
-            SecureToken: token,
-            To: 'mail@gmail.com',
-            From: 'form@mailpropio.cl',
-            Subject: `${mensaje.motivo}`,
-            Body: `Nombre : ${mensaje.nombre_apellido} <br/> Correo : ${mensaje.correo} <br/> Telefono : ${mensaje.telefono} <br/> Motivo : ${mensaje.motivo} <br/> Mensaje : ${mensaje.mensaje}`
-        }
-
-
-        if (window.Email) {
-
-            window.Email.send(config).then(() => setisSend(true));
-            setMensaje({
-                nombre_apellido: '',
-                correo: '',
-                telefono: '',
-                motivo: '',
-                mensaje: ''
-            })
-
-
-        }
+        emailjs.sendForm('service_9rvxgsv','template_sfxk1gs',form.current, 'u8gwmxbCi5I7Pf7xz')
+        .then((result) => {
+            if(result.status == 200){
+                setisSend(true)
+            }
+        },(error) => {
+            console.log("error", error)
+        })
+        
     }
 
     const [mensaje, setMensaje] = useState({
@@ -70,7 +56,7 @@ const Form = () => {
                         <div className="col-lg-6 col-md-12 col-sm-12">
 
                             <div className="contact-form form-style-four mt-15">
-                                <form action="#">
+                                <form action="#" ref={form}>
                                     <div className="row">
                                         <div className="col-md-6">
                                             <div className="form-input mt-15">
