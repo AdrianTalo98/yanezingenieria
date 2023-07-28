@@ -176,8 +176,7 @@ const Form = () => {
                                                     </div>
                                                     <div class="info-content">
                                                         <p class="text">
-                                                            Avenida Santiago 999, Santiago,
-                                                            Chile
+                                                            Santa Cruz, VI región, Chile
                                                         </p>
                                                     </div>
                                                 </div>
