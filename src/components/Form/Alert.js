@@ -8,7 +8,7 @@ const Alert = () => {
             <div class="alert-message">
                 <h5 class="message-title">Mensaje enviado</h5>
                 <p class="text">
-                Gracias por contactarse con nosortos. Nos pondremos en contacto a la brevedad.
+                Gracias por contactarse con nosotros. Nos pondremos en contacto a la brevedad.
                 </p>
             </div>
         </div>

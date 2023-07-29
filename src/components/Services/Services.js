@@ -70,6 +70,8 @@ const Services = () => {
                   <div class="row justify-content-center">
                      <div class="col-md-9 col-lg-12">
                         <div class="row testimonial-one-active">
+
+
                            <div class="col-lg-4">
                               <div class="single-testimonial text-center">
                                  <div class="testimonial-image">
@@ -98,7 +100,7 @@ const Services = () => {
                                  <h6 class="author-name">Proyectos de Pavimentación </h6>
                                     
                                     <p class="text">
-                                    Diseñamos pavimentos y sistemas de evacuación de aguas lluvias para entidades públicas y privadas, incluyendo accesos a rutas nacionales.
+                                    Efectuamos diseños para pavimentos y evacuación de aguas lluvias. Estos pueden ser para pavimentos participativos del <b>Serviu</b>, accesos a rutas nacionales para la <b>Dirección de Vialidad</b> o para entidades privadas.
                                     </p>
                                     
                                  </div>
@@ -116,7 +118,7 @@ const Services = () => {
                                  <h6 class="author-name">Proyectos de arquitectura</h6>
                                     
                                     <p class="text">
-                                    Creamos diseños arquitectónicos para viviendas, edificios públicos y privados, ajustándonos a normativas municipales y requerimientos específicos del cliente.
+                                    Realizamos diseños arquitectónicos para viviendas unifamiliares, edificios públicos y privados. Estos pueden ser para diseños desde la idea del cliente o regularizaciones ante las Direcciones de Obras Municipalidades a nivel nacional. 
                                     </p>
                                     
                                  </div>
@@ -154,7 +156,7 @@ const Services = () => {
                                  <h6 class="author-name">Proyectos Eléctricos.</h6>
                                     
                                     <p class="text">
-                                    Elaboramos proyectos eléctricos para diversas edificaciones, garantizando el cumplimiento de regulaciones técnicas y legales.
+                                    Elaboramos proyectos eléctricos para diversas edificaciones, garantizando el cumplimiento de regulaciones técnicas y legales. <b>TE1 Y TE2</b>
 
                                     </p>
                                     

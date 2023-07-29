@@ -10,15 +10,24 @@ const Form = () => {
 
     const form = useRef();
 
+    const inicialState = {
+        nombre_apellido: '',
+        correo: '',
+        telefono: '',
+        motivo: '',
+        mensaje: ''
+    }
+
 
 
     const enviar = (e) => {
-        console.log("se va a enviar..")
         e.preventDefault()
-        emailjs.sendForm('service_9rvxgsv','template_sfxk1gs',form.current, 'u8gwmxbCi5I7Pf7xz')
+        emailjs.sendForm('service_y1w1c9j','template_sfxk1gs',form.current, 'u8gwmxbCi5I7Pf7xz')
         .then((result) => {
             if(result.status == 200){
                 setisSend(true)
+                setMensaje(inicialState)
+
             }
         },(error) => {
             console.log("error", error)
@@ -49,7 +58,7 @@ const Form = () => {
     return (
 
         <div className='formulario'>
-            <section className="contact-area" data-aos="fade-right" data-aos-duration="1500">
+            <section className="contact-area" >
                 <div className="container">
                     <h1>Contáctenos</h1>
                     <div className="row">

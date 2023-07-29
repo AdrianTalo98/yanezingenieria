@@ -43,7 +43,7 @@ const Somos = () => {
                         <div class="items-content">
                            <h4 class="items-title">Misión</h4>
                            <p class="text">
-                              Non qui irure enim incididunt duis ea excepteur est ad et sunt incididunt sit elit. Ex labore id occaecat ullamco commodo qui adipisicing qui adipisicing. Sunt fugiat duis consectetur velit aliqua.
+                           Nuestra misión es desarrollar proyectos de ingeniería, arquitectura, sanitarios, eléctricos y topográficos, ofreciendo soluciones acorde a nuestros clientes, guiados por leyes y normas, brindando asesoría profesional.
                            </p>
                         </div>
                      </div>
