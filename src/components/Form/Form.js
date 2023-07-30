@@ -195,7 +195,7 @@ const Form = () => {
                                                         <i class="lni lni-envelope"></i>
                                                     </div>
                                                     <div class="info-content">
-                                                        <p class="text">contacto@yañezingenieria.cl</p>
+                                                        <p class="text">contacto@yanezingenieria.cl</p>
                                                     </div>
                                                 </div>
 
