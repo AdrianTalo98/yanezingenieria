@@ -61,39 +61,54 @@ const Client = () => {
             <div className="row clientess">
             <div class="col-md-3 col-6">
             <div class="single-client text-center">
-               <img src='./assets/clientes/cavacolchagua.svg' alt="colchagua" />
+               <img src='./assets/clientes/cavacolchagua.svg' alt="colchagua" style={{height: '200px'}}/>
             </div>
             
          </div>
          <div class="col-md-3 col-6">
             <div class="single-client text-center">
-               <img src="/assets/clientes/maginox.webp" alt="Logo" />
-            </div>
-            
-         </div>
-         <div class="col-md-3 col-6">
-            <div class="single-client text-center">
-               <img src="/assets/clientes/modulartech.webp" alt="Logo" />
-            </div>
-            
-         </div>
-         <div class="col-md-3 col-6">
-            <div class="single-client text-center">
-               <img src="/assets/clientes/cruzroja.webp" alt="Logo" />
+               <img src="/assets/clientes/maginox.webp" alt="Logo" style={{height: '200px'}}/>
             </div>
             
          </div>
 
          <div class="col-md-3 col-6">
             <div class="single-client text-center">
-               <img src="/assets/clientes/kinu.png" alt="Logo" />
+               <img src="/assets/clientes/mop.png" alt="Logo" style={{height: '200px'}}/>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+            <div class="single-client text-center">
+               <img src="/assets/clientes/mobe.png" alt="Logo" style={{height: '200px'}}/>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+            <div class="single-client text-center">
+               <img src="/assets/clientes/patricia.png" alt="Logo" style={{height: '200px'}}/>
+            </div>
+            </div>
+            
+
+
+         <div class="col-md-3 col-6">
+            <div class="single-client text-center">
+               <img src="/assets/clientes/cruzroja.webp" alt="Logo" style={{height: '200px'}}/>
             </div>
             
          </div>
 
          <div class="col-md-3 col-6">
             <div class="single-client text-center">
-               <img src="/assets/clientes/latrach.png" alt="Logo" />
+               <img src="/assets/clientes/kinu.png" alt="Logo" style={{height: '200px'}}/>
+            </div>
+            
+         </div>
+
+         <div class="col-md-3 col-6">
+            <div class="single-client text-center">
+               <img src="/assets/clientes/municipalidadlol.png" alt="Logo" style={{height: '200px'}}/>
             </div>
             
          </div>
